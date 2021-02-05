@@ -26,19 +26,34 @@ namespace tasks
             InitializeComponent();
         }
 
+        private string currentFileName;
+
         private void btnOpenFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
             if (openFileDialog.ShowDialog() == true)
                 FileTxtBx.Text = File.ReadAllText(openFileDialog.FileName);
+
+            currentFileName = openFileDialog.FileName;
         }
 
         private void saveFileBtn_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-                File.WriteAllText(openFileDialog.FileName, FileTxtBx.Text);
+            if (currentFileName != null)
+                File.WriteAllText(currentFileName, FileTxtBx.Text);
+            else
+                saveAsFileBtn_Click(sender, e);
         }
 
+        private void saveAsFileBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text file (*.txt)|*.txt|C# file (*.cs)|*.cs|All files (*.*)|*.*";
+            if (saveFileDialog.ShowDialog() == true)
+                File.WriteAllText(saveFileDialog.FileName, FileTxtBx.Text);
+
+            currentFileName = saveFileDialog.FileName;
+        }
     }
 }

@@ -9,6 +9,7 @@
     <Grid>
         <TextBox Name="FileTxtBx"  HorizontalAlignment="Left" Height="361" Margin="26,25,0,0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="558"/>
         <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Height="100" Margin="665,286,27,33">Open file</Button>
-        <Button Name="saveFileBtn" Click="saveFileBtn_Click" Width="100" Height="100" Margin="665,159,27,160" Content="Save file"/>
+        <Button Name="saveAsFileBtn" Click="saveAsFileBtn_Click" Width="100" Height="100" Margin="665,159,27,160" Content="Save as"/>
+        <Button Name="saveFileBtn" Click="saveFileBtn_Click" Width="100" Height="100" Margin="665,25,27,294" Content="Save file"/>
     </Grid>
 </Window>
