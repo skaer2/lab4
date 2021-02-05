@@ -52,16 +52,23 @@ namespace tasks
         {
            
             int start, end;
-            string[] strArr1 =  FileTxtBx1.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-            string[] strArr2 = FileTxtBx2.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
 
 
             if ((FileTxtBx1.Text != null) && (FileTxtBx2.Text != null))
             {
-                for (int i = 0; i < strArr1.Length; i++)
+                string[] strArr1 = FileTxtBx1.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+                string[] strArr2 = FileTxtBx2.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+                int minLength;
+                if (strArr1.Length < strArr2.Length)
+                    minLength = strArr1.Length;
+                else minLength = strArr2.Length;
+
+
+                for (int i = 0; i < minLength; i++)
                 {
                     for (int j = 0; j < strArr1[i].Length; j++)
-                        if strArr1[i][j]
+                        if strArr1[i][j] 
                 }
                    
 
