@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tasks"
         mc:Ignorable="d"
-        Title="secondTask" Height="450" Width="800">
+        Title="secondTask" Height="493.704" Width="614.362">
     <Grid>
-        <TextBox Name="FileTxtBx"  HorizontalAlignment="Left" Height="361" Margin="26,25,0,0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="558"/>
-        <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Height="100" Margin="665,286,27,33">Open file</Button>
-        <Button Name="saveAsFileBtn" Click="saveAsFileBtn_Click" Width="100" Height="100" Margin="665,159,27,160" Content="Save as"/>
-        <Button Name="saveFileBtn" Click="saveFileBtn_Click" Width="100" Height="100" Margin="665,25,27,294" Content="Save file"/>
+        <TextBox Name="FileTxtBx"  HorizontalAlignment="Left" Height="361" Margin="20,28,0,0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="558"/>
+        <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Margin="20,408,488,30" Content="Открыть"/>
+        <Button Name="saveAsFileBtn" Click="saveAsFileBtn_Click" Width="100" Margin="475,408,33,30" Content="Сохранить как"/>
+        <Button Name="saveFileBtn" Click="saveFileBtn_Click" Width="100" Margin="340,408,168,30" Content="Сохранить" RenderTransformOrigin="2.078,2.495"/>
     </Grid>
 </Window>

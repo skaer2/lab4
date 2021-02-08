@@ -49,18 +49,16 @@ namespace tasks
 
         private void Task4Btn_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void Task5Btn_Click(object sender, RoutedEventArgs e)
         {
-
+            Task5Wnd Task5Wnd = new Task5Wnd();
+            Task5Wnd.Show();
         }
 
-        private void Task6Btn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+   
     }
 }
 

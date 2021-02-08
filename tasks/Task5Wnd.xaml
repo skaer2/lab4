@@ -1,0 +1,19 @@
+﻿<Window x:Class="tasks.Task5Wnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tasks"
+        mc:Ignorable="d"
+        Title="Task5Wnd" Height="505.2" Width="802.4">
+    <Grid>
+        <TextBox x:Name="FileTxtBx1" IsReadOnly="True" SelectionBrush="Aqua" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="361" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369"/>
+        <TextBox x:Name="FileTxtBx2" IsReadOnly="True" SelectionBrush="Aquamarine" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="361" Margin="401,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383"/>
+        <Button x:Name="btnOpenFile1" Content="Открыть" HorizontalAlignment="Left" Margin="10,386,0,0" VerticalAlignment="Top" Width="97" Height="24" Click="btnOpenFile1_Click"/>
+        <Button x:Name="btnOpenFile2" Content="Открыть" HorizontalAlignment="Left" Margin="687,386,0,0" VerticalAlignment="Top" Width="97" Height="24" Click="btnOpenFile2_Click"/>
+        <TextBlock x:Name="FileName1" HorizontalAlignment="Left" Margin="137,386,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="242"/>
+        <TextBlock x:Name="FileName2" HorizontalAlignment="Left" Margin="401,386,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="242"/>
+        <Button x:Name="btnComparing" Content="Сравнить" HorizontalAlignment="Left" Margin="338,431,0,0" VerticalAlignment="Top" Width="97" Height="24" Click="btnComparing_Click"/>
+
+    </Grid>
+</Window>

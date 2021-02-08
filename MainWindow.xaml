@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="Task1Btn" Content="Task 1" HorizontalAlignment="Left" Margin="353,79,0,0" VerticalAlignment="Top" Width="75" Click="Task1Btn_Click"/>
-        <Button Name="Task2Btn" Content="Task 2" HorizontalAlignment="Left" Margin="353,122,0,0" VerticalAlignment="Top" Width="75" Click="Task2Btn_Click"/>
-        <Button Name="Task3Btn" Content="Task 3" HorizontalAlignment="Left" Margin="353,172,0,0" VerticalAlignment="Top" Width="75" Click="Task3Btn_Click"/>
-        <Button Name="Task4Btn" Content="Task 4" HorizontalAlignment="Left" Margin="353,214,0,0" VerticalAlignment="Top" Width="75" Click="Task4Btn_Click"/>
-        <Button Name="Task5Btn" Content="Task 5" HorizontalAlignment="Left" Margin="353,256,0,0" VerticalAlignment="Top" Width="75" Click="Task5Btn_Click"/>
-        <Button Name="Task6Btn" Content="Task 6" HorizontalAlignment="Left" Margin="353,296,0,0" VerticalAlignment="Top" Width="75" Click="Task6Btn_Click"/>
+        <Button Name="Task1Btn" Content="Задание 1" HorizontalAlignment="Left" Margin="289,141,0,0" VerticalAlignment="Top" Width="112" Click="Task1Btn_Click" Height="31"/>
+        <Button Name="Task2Btn" Content="Задание 2" HorizontalAlignment="Left" Margin="289,177,0,0" VerticalAlignment="Top" Width="112" Click="Task2Btn_Click" Height="31"/>
+        <Button Name="Task3Btn" Content="Задание 3" HorizontalAlignment="Left" Margin="289,213,0,0" VerticalAlignment="Top" Width="112" Click="Task3Btn_Click" Height="31"/>
+        <Button Name="Task4Btn" Content="Задание 4" HorizontalAlignment="Left" Margin="423,141,0,0" VerticalAlignment="Top" Width="112" Click="Task4Btn_Click" Height="31"/>
+        <Button Name="Task5Btn" Content="Задание 5" HorizontalAlignment="Left" Margin="423,177,0,0" VerticalAlignment="Top" Width="112" Click="Task5Btn_Click" Height="31"/>
+       
 
     </Grid>
 </Window>

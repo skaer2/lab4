@@ -58,6 +58,9 @@
     <Compile Include="tasks\secondTask.xaml.cs">
       <DependentUpon>secondTask.xaml</DependentUpon>
     </Compile>
+    <Compile Include="tasks\Task5Wnd.xaml.cs">
+      <DependentUpon>Task5Wnd.xaml</DependentUpon>
+    </Compile>
     <Compile Include="tasks\ThirdTask.xaml.cs">
       <DependentUpon>ThirdTask.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="tasks\secondTask.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tasks\Task5Wnd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

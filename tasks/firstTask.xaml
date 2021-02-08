@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tasks"
         mc:Ignorable="d"
-        Title="firstTask" Height="450" Width="800">
+        Title="firstTask" Height="468.284" Width="620.203">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="306*"/>
+
+        </Grid.ColumnDefinitions>
         <TextBox Name="FileTxtBx"  HorizontalAlignment="Left" Height="361" Margin="26,25,0,0" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" IsReadOnly="True" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="558"/>
-        <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Height="100" Margin="665,286,27,33">Open file</Button>
+        <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Margin="484,402,29.6,10.4" Content="Открыть"/>
     </Grid>
 </Window>
