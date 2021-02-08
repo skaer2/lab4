@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="ThirdTask" Height="246.8" Width="374.4">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="152,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="152,66,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="152,106,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="69,73,0,0" TextWrapping="Wrap" Text="Введите N" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="69,113,0,0" TextWrapping="Wrap" Text="Массив" VerticalAlignment="Top"/>
-        <Button x:Name="saveFileBtn" Content="Сохранить" HorizontalAlignment="Left" Margin="241,174,0,0" VerticalAlignment="Top" Width="97" Height="24" Click="saveFileBtn_Click"/>
-        <Button x:Name="btnOpenFile" Content="Открыть" HorizontalAlignment="Left" Margin="20,174,0,0" VerticalAlignment="Top" Width="97" Height="24" Click="btnOpenFile_Click"/>
+        <TextBox Name="nTxtBx" HorizontalAlignment="Left" Height="23" Margin="85,79,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="resultTxtBx" HorizontalAlignment="Left" Height="23" Margin="151,164,0,0" TextWrapping="Wrap" Text="" IsReadOnly="True" VerticalAlignment="Top" Width="596"/>
+        <Label Content="Введите N" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Полученный массив" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
+        <Button Name="generateBtn" Content="Сгенерировать" HorizontalAlignment="Left" Margin="242,79,0,0" VerticalAlignment="Top" Width="75" Click="GenerateBtn_Click"/>
+        <Button Name="btnOpenFile" Click="btnOpenFile_Click" Width="100" Height="100" Margin="665,286,27,33" Content="Open file"/>
+        <Button Name="saveFileBtn" Click="saveFileBtn_Click" Width="100" Height="100" Margin="511,286,181,33" Content="Save file"/>
 
     </Grid>
 </Window>
