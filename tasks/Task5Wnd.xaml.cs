@@ -67,8 +67,8 @@ namespace tasks
 
                 for (int i = 0; i < minLength; i++)
                 {
-                    for (int j = 0; j < strArr1[i].Length; j++)
-                        if strArr1[i][j] 
+                    //for (int j = 0; j < strArr1[i].Length; j++)
+                        //if strArr1[i][j] 
                 }
                    
 

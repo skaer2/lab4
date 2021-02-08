@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tasks"
         mc:Ignorable="d"
-        Title="ThirdTask" Height="246.8" Width="374.4">
+        Title="ThirdTask" Height="468.631" Width="815.346">
     <Grid>
         <TextBox Name="nTxtBx" HorizontalAlignment="Left" Height="23" Margin="85,79,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="70"/>
         <TextBox Name="resultTxtBx" HorizontalAlignment="Left" Height="23" Margin="151,164,0,0" TextWrapping="Wrap" Text="" IsReadOnly="True" VerticalAlignment="Top" Width="596"/>
